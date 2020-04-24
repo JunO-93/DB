@@ -1,0 +1,139 @@
+{
+  "canvas": {
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 2,
+    "scrollLeft": 0,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": true,
+      "columnPrimaryKey": true,
+      "columnUnique": true,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "graphql",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase"
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "lecture_INFORMATION",
+        "comment": "강의정보",
+        "columns": [
+          {
+            "name": "NAME",
+            "comment": "강사이름",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "d923b522-4e1d-4de6-b633-be95402deb15",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "name": "PHONE",
+            "comment": "강사전화번호",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "4e9bc1a0-e318-44ec-b449-40c5832542d4",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 80,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "id": "bc5b403a-c9cc-4c29-a331-b9e775ba5ecc",
+        "ui": {
+          "active": false,
+          "top": 113,
+          "left": 107,
+          "widthName": 136,
+          "widthComment": 60,
+          "zIndex": 61
+        }
+      },
+      {
+        "name": "student_INFORMATION",
+        "comment": "학생정보",
+        "columns": [
+          {
+            "name": "NAME",
+            "comment": "학생이름",
+            "dataType": "TEXT",
+            "default": "",
+            "id": "6936fb78-9700-4d34-9a35-097bc14500f0",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "id": "d6bf3312-d933-4ec6-b98f-fc2e5ae3e772",
+        "ui": {
+          "active": false,
+          "top": 322,
+          "left": 484,
+          "widthName": 141,
+          "widthComment": 60,
+          "zIndex": 63
+        }
+      }
+    ],
+    "tableFocus": null,
+    "edit": null,
+    "copyColumns": [],
+    "columnDraggable": null
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [],
+    "draw": null
+  }
+}
