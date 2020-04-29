@@ -1,0 +1,11 @@
+-- SQLite
+-- SELECT index, CRIM, ZN, INDUS, CHAS, NOX, RM, AGE, DIS, RAD, TAX, PTRATIO, B, LSTAT
+-- FROM `boston_table`;
+
+SELECT CRIM,INDUS,NOX,AGE
+FROM boston_table
+WHERE AGE>(
+    SELECT AGE
+    FROM boston_table
+    WHERE AGE BETWEEN 50 AND 80
+) AND NOX BETWEEN 0.4 AND 0.51;
